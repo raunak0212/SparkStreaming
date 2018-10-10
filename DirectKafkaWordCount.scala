@@ -64,4 +64,4 @@ object DirectKafkaWordCount {
     ssc.awaitTermination()
   }
 }
-// scalastyle:on println
+
