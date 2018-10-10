@@ -8,9 +8,7 @@ import org.apache.spark.SparkConf
  * Calculates popular hashtags (topics) over sliding 10 and 60 second windows from a Twitter
  * stream. The stream is instantiated with credentials and optionally filters supplied by the
  * command line arguments.
- *
- * Run this on your local machine as
- *
+ * Put the <consumer key> <consumer secret> <access token> <access token secret> in the arguments and run
  */
 
 object TwitterPopularTags {
